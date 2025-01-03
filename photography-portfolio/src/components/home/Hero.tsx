@@ -1,15 +1,15 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Camera, Music, Newspaper, Stars } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const carouselImages = [
-    "/api/placeholder/1920/1080",
-    "/api/placeholder/1920/1080",
-    "/api/placeholder/1920/1080",
+    "/images/roadrage.jpg",
+    "/images/totallongshot.jpg",
+    "/images/trainedu.jpg",
   ];
 
   useEffect(() => {
@@ -30,10 +30,13 @@ export default function Hero() {
               currentSlide === index ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img
+            <Image
               src={img}
               alt={`Long exposure ${index + 1}`}
-              className="object-cover w-full h-full"
+              fill
+              className="object-cover"
+              priority={index === 0} // Prioritize loading the first image
+              quality={100}
             />
           </div>
         ))}
@@ -44,14 +47,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-        {/* Icons */}
-        <div className="flex gap-6 mb-8">
-          <Camera className="w-8 h-8 text-purple-400" />
-          <Music className="w-8 h-8 text-blue-400" />
-          <Newspaper className="w-8 h-8 text-green-400" />
-          <Stars className="w-8 h-8 text-yellow-400" />
-        </div>
-
         <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight text-white">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
             Capturing
@@ -60,8 +55,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl mb-8 max-w-2xl text-gray-300">
-          Where journalistic precision meets cosmic wonder, driven by the rhythm
-          of hardstyle
+          Where journalistic precision meets cosmic wonder. Capturing moments
+          through lenses.
         </p>
 
         <div className="flex gap-4">
