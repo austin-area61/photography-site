@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { Camera, Music, Newspaper, Stars } from 'lucide-react';
+"use client";
+
+import React, { useState, useEffect } from "react";
+import { Camera, Music, Newspaper, Stars } from "lucide-react";
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  
+
   const carouselImages = [
     "/api/placeholder/1920/1080",
     "/api/placeholder/1920/1080",
-    "/api/placeholder/1920/1080"
+    "/api/placeholder/1920/1080",
   ];
 
   useEffect(() => {
@@ -25,7 +27,7 @@ export default function Hero() {
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ${
-              currentSlide === index ? 'opacity-100' : 'opacity-0'
+              currentSlide === index ? "opacity-100" : "opacity-0"
             }`}
           >
             <img
@@ -54,13 +56,12 @@ export default function Hero() {
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
             Capturing
           </span>
-          <span className="block">
-            Moments in Time
-          </span>
+          <span className="block">Moments in Time</span>
         </h1>
 
         <p className="text-xl md:text-2xl mb-8 max-w-2xl text-gray-300">
-          Where journalistic precision meets cosmic wonder, driven by the rhythm of hardstyle
+          Where journalistic precision meets cosmic wonder, driven by the rhythm
+          of hardstyle
         </p>
 
         <div className="flex gap-4">
@@ -80,7 +81,7 @@ export default function Hero() {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-2 h-2 rounded-full transition-all ${
-              currentSlide === index ? 'bg-white w-6' : 'bg-white/50'
+              currentSlide === index ? "bg-white w-6" : "bg-white/50"
             }`}
           />
         ))}
