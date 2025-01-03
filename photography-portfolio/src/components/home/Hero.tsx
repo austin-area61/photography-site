@@ -56,7 +56,7 @@ export default function Hero() {
 
         <p className="text-xl md:text-2xl mb-8 max-w-2xl text-gray-300">
           Where journalistic precision meets cosmic wonder. Capturing moments
-          through lenses.
+          through lenses📸.
         </p>
 
         <div className="flex gap-4">

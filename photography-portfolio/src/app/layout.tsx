@@ -6,8 +6,8 @@ import Header from "@/components/layout/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Photography Portfolio",
-  description: "A portfolio showcasing photography work",
+  title: "Edrulo's Portfolio",
+  description: "A portfolio showcasing Edwin's photography work",
 };
 
 export default function RootLayout({
