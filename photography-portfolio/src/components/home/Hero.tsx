@@ -9,7 +9,7 @@ export default function Hero() {
   const carouselImages = [
     "/images/roadrage.jpg",
     "/images/totallongshot.jpg",
-    "/images/trainedu.jpg",
+    "/images/trainedu   .jpg",
   ];
 
   useEffect(() => {
