@@ -35,7 +35,7 @@ export default function Hero() {
               alt={`Long exposure ${index + 1}`}
               fill
               className="object-cover"
-              priority={index === 0} // Prioritize loading the first image
+              priority={index === 0}
               quality={100}
             />
           </div>
@@ -47,23 +47,23 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight text-white">
+        <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 md:mb-6 leading-tight text-white">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
             Capturing
           </span>
           <span className="block">Moments in Time</span>
         </h1>
 
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl text-gray-300">
-          Where journalistic precision meets cosmic wonder. Capturing moments
-          through lenses📸.
+        <p className="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 max-w-2xl text-gray-300">
+          Where journalistic precision meets cosmic wonder, driven by the rhythm
+          of hardstyle
         </p>
 
-        <div className="flex gap-4">
-          <button className="px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors text-white">
+        <div className="flex flex-col sm:flex-row gap-4">
+          <button className="px-6 sm:px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors text-white text-sm sm:text-base">
             View Gallery
           </button>
-          <button className="px-8 py-3 border border-white/30 hover:bg-white/10 rounded-lg transition-colors text-white">
+          <button className="px-6 sm:px-8 py-3 border border-white/30 hover:bg-white/10 rounded-lg transition-colors text-white text-sm sm:text-base">
             About Me
           </button>
         </div>
