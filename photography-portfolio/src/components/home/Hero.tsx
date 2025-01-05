@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -9,7 +10,7 @@ export default function Hero() {
   const carouselImages = [
     "/images/roadrage.jpg",
     "/images/totallongshot.jpg",
-    "/images/trainedu   .jpg",
+    "/images/trainedu.jpg",
   ];
 
   useEffect(() => {
@@ -55,17 +56,23 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 max-w-2xl text-gray-300">
-          Where journalistic precision meets cosmic wonder, driven by the rhythm
-          of hardstyle
+          Where journalistic precision meets cosmic wonder. Capturing moments
+          through lenses📸
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="px-6 sm:px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors text-white text-sm sm:text-base">
+          <Link
+            href="/gallery"
+            className="px-6 sm:px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors text-white text-sm sm:text-base text-center"
+          >
             View Gallery
-          </button>
-          <button className="px-6 sm:px-8 py-3 border border-white/30 hover:bg-white/10 rounded-lg transition-colors text-white text-sm sm:text-base">
+          </Link>
+          <Link
+            href="/about"
+            className="px-6 sm:px-8 py-3 border border-white/30 hover:bg-white/10 rounded-lg transition-colors text-white text-sm sm:text-base text-center"
+          >
             About Me
-          </button>
+          </Link>
         </div>
       </div>
 

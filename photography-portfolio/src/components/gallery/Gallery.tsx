@@ -1,44 +1,11 @@
-// src/app/gallery/page.tsx
 "use client";
 
 import React, { useState } from "react";
 import Image from "next/image";
+import { categories, ImageCategory } from "./galleryConfig";
 
-type ImageCategory = {
-  id: string;
-  name: string;
-  images: {
-    src: string;
-    alt: string;
-    aspectRatio?: string; // For masonry-like layout
-  }[];
-};
-
-export default function GalleryPage() {
+export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState<string>("all");
-
-  const categories: ImageCategory[] = [
-    {
-      id: "all",
-      name: "All Photos",
-      images: [], // Will be populated with all images
-    },
-    {
-      id: "long-exposure",
-      name: "Long Exposure",
-      images: [], // Add your long exposure images here
-    },
-    {
-      id: "portraits",
-      name: "Portraits",
-      images: [], // Add your portrait images here
-    },
-    {
-      id: "street",
-      name: "Street",
-      images: [], // Add your street photography images here
-    },
-  ];
 
   return (
     <div className="min-h-screen bg-black pt-20">
