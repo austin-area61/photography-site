@@ -46,7 +46,7 @@ export default function About() {
         <div className="w-full lg:w-1/2">
           <div className="relative w-full h-80 sm:h-[500px] rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/images/personal-portrait.jpg" // Replace with your image path
+              src="/images/personal-portrait2.jpg" // Replace with your image path
               alt="Photographer Portrait"
               fill
               className="object-cover"

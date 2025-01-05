@@ -57,6 +57,14 @@ export const categories: ImageCategory[] = [
         src: "/images/portraits/smokeit.jpg",
         alt: "smoke it",
       },
+      {
+        src: "/images/portraits/double-tree-hilton.jpg",
+        alt: "BetSafe",
+      },
+      {
+        src: "/images/portraits/portrait1.jpg",
+        alt: "Edwin",
+      },
       // Add your portrait images
     ],
   },
@@ -90,6 +98,18 @@ export const categories: ImageCategory[] = [
       {
         src: "/images/tours/tours5.jpg",
         alt: "Masif Events",
+      },
+      {
+        src: "/images/tours/tours6.jpg",
+        alt: "Oz",
+      },
+      {
+        src: "/images/tours/tours7.jpg",
+        alt: "Let's shoot",
+      },
+      {
+        src: "/images/tours/tours8.jpg",
+        alt: "Night Shoot",
       },
       // Add your tours photography images
     ],
