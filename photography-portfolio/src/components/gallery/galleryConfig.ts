@@ -73,13 +73,6 @@ export const categories: ImageCategory[] = [
     ],
   },
   {
-    id: "street",
-    name: "Street",
-    images: [
-      // Add your street photography images
-    ],
-  },
-  {
     id: "tours",
     name: "Tours",
     images: [
