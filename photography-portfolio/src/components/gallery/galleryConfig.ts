@@ -19,7 +19,15 @@ export const categories: ImageCategory[] = [
     name: "Long Exposure",
     images: [
       {
-        src: "/images/long-exposure/image1.jpg",
+        src: "/images/roadrage.jpg",
+        alt: "City Lights Trail",
+      },
+      {
+        src: "/images/totallongshot.jpg",
+        alt: "City Lights Trail",
+      },
+      {
+        src: "/images/trainedu.jpg",
         alt: "City Lights Trail",
       },
       // Add more images
@@ -29,6 +37,26 @@ export const categories: ImageCategory[] = [
     id: "portraits",
     name: "Portraits",
     images: [
+      {
+        src: "/images/portraits/canoncloseup.jpg",
+        alt: "canon close up",
+      },
+      {
+        src: "/images/portraits/omusakhulu.jpg",
+        alt: "alex image",
+      },
+      {
+        src: "/images/portraits/roughstate.jpg",
+        alt: "rough state",
+      },
+      {
+        src: "/images/portraits/roughstate2.jpg",
+        alt: "rough state 2",
+      },
+      {
+        src: "/images/portraits/smokeit.jpg",
+        alt: "smoke it",
+      },
       // Add your portrait images
     ],
   },
@@ -37,6 +65,33 @@ export const categories: ImageCategory[] = [
     name: "Street",
     images: [
       // Add your street photography images
+    ],
+  },
+  {
+    id: "tours",
+    name: "Tours",
+    images: [
+      {
+        src: "/images/tours/tours1.jpg",
+        alt: "Tour 1",
+      },
+      {
+        src: "/images/tours/tours2.jpg",
+        alt: "Tour 2",
+      },
+      {
+        src: "/images/tours/tours3.jpg",
+        alt: "Tour 3",
+      },
+      {
+        src: "/images/tours/tours4.jpg",
+        alt: "Tour 4",
+      },
+      {
+        src: "/images/tours/tours5.jpg",
+        alt: "Tour 5",
+      },
+      // Add your tours photography images
     ],
   },
 ];
