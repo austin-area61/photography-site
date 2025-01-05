@@ -65,6 +65,10 @@ export const categories: ImageCategory[] = [
         src: "/images/portraits/portrait1.jpg",
         alt: "Edwin",
       },
+      {
+        src: "/images/portraits/portrait2.jpg",
+        alt: "Msee wa senke",
+      },
       // Add your portrait images
     ],
   },
