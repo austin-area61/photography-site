@@ -73,7 +73,7 @@ export const categories: ImageCategory[] = [
     images: [
       {
         src: "/images/tours/tours1.jpg",
-        alt: "Tour 1",
+        alt: "Sydney Opera house",
       },
       {
         src: "/images/tours/tours2.jpg",
@@ -89,7 +89,7 @@ export const categories: ImageCategory[] = [
       },
       {
         src: "/images/tours/tours5.jpg",
-        alt: "Tour 5",
+        alt: "Masif Events",
       },
       // Add your tours photography images
     ],
