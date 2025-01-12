@@ -12,7 +12,12 @@ export const categories: ImageCategory[] = [
   {
     id: "all",
     name: "All Photos",
-    images: [], // Will be automatically populated
+    images: [
+      {
+        src: "/images/all/all1.jpg",
+        alt: "",
+      },
+    ], // Will be automatically populated
   },
   {
     id: "long-exposure",
@@ -20,11 +25,11 @@ export const categories: ImageCategory[] = [
     images: [
       {
         src: "/images/roadrage.jpg",
-        alt: "City Lights Trail",
+        alt: "Total Kenya",
       },
       {
         src: "/images/totallongshot.jpg",
-        alt: "City Lights Trail",
+        alt: "Total Kenya",
       },
       {
         src: "/images/trainedu.jpg",
@@ -82,15 +87,15 @@ export const categories: ImageCategory[] = [
       },
       {
         src: "/images/tours/tours2.jpg",
-        alt: "Tour 2",
+        alt: "Sydney Harbour Bridge",
       },
       {
         src: "/images/tours/tours3.jpg",
-        alt: "Tour 3",
+        alt: "La Perouse",
       },
       {
         src: "/images/tours/tours4.jpg",
-        alt: "Tour 4",
+        alt: "Sydney Opera House",
       },
       {
         src: "/images/tours/tours5.jpg",
@@ -107,6 +112,22 @@ export const categories: ImageCategory[] = [
       {
         src: "/images/tours/tours8.jpg",
         alt: "Night Shoot",
+      },
+      {
+        src: "/images/tours/tours9.jpg",
+        alt: "With B-Front",
+      },
+      {
+        src: "/images/tours/tours10.jpg",
+        alt: "With Wasted Penguinz",
+      },
+      {
+        src: "/images/tours/tours11.jpg",
+        alt: "La Perouse",
+      },
+      {
+        src: "/images/tours/tours12.jpg",
+        alt: "Parramatta",
       },
       // Add your tours photography images
     ],
