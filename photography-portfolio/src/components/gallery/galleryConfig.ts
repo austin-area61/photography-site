@@ -15,6 +15,106 @@ export const categories: ImageCategory[] = [
     images: [
       {
         src: "/images/all/all1.jpg",
+        alt: "Mt Coot-Tha Summit Lookout",
+      },
+      {
+        src: "/images/all/all2.jpg",
+        alt: "Guildford",
+      },
+      {
+        src: "/images/all/all3.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all4.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all5.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all6.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all7.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all8.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all9.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all10.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all11.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all12.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all13.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all14.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all15.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all16.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all17.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all18.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all19.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all20.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all21.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all22.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all23.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all24.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all25.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/all/all26.jpg",
         alt: "",
       },
     ], // Will be automatically populated
@@ -34,6 +134,22 @@ export const categories: ImageCategory[] = [
       {
         src: "/images/trainedu.jpg",
         alt: "City Lights Trail",
+      },
+      {
+        src: "/images/long-exposure/long1.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/long-exposure/long2.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/long-exposure/long3.jpg",
+        alt: "",
+      },
+      {
+        src: "/images/long-exposure/long4.jpg",
+        alt: "",
       },
       // Add more images
     ],
@@ -103,7 +219,7 @@ export const categories: ImageCategory[] = [
       },
       {
         src: "/images/tours/tours6.jpg",
-        alt: "Oz",
+        alt: "Circular Quay",
       },
       {
         src: "/images/tours/tours7.jpg",

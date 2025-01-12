@@ -48,7 +48,7 @@ export default function Contact() {
 
         {/* Contact Form */}
         <form
-          action="/api/contact" // Backend API endpoint
+          action="" // Backend API endpoint
           method="POST"
           className="space-y-6"
         >
